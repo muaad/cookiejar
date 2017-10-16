@@ -321,7 +321,7 @@ module CookieJar
           when :httponly
             args[:http_only] = true
           else
-            raise InvalidCookieError.new "Unknown cookie parameter '#{key}'"
+           # raise InvalidCookieError.new "Unknown cookie parameter '#{key}'"
           end
         end
       end
