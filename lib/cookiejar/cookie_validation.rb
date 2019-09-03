@@ -275,7 +275,7 @@ module CookieJar
         end
       end
 
-      raise InvalidCookieError.new(errors) unless errors.empty?
+      # raise InvalidCookieError.new(errors) unless errors.empty?
 
       # Note: 'secure' is not explicitly defined as an SSL channel, and no
       # test is defined around validity and the 'secure' attribute
